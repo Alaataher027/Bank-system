@@ -1,0 +1,102 @@
+# depslib dependency file v1.0
+1665223441 source:c:\users\logo cs\desktop\bank system 2\main.cpp
+	<iostream>
+	"Screens.h"
+
+1665216826 source:c:\users\logo cs\desktop\bank system 2\person.cpp
+	"Person.h"
+
+1665219073 c:\users\logo cs\desktop\bank system 2\person.h
+	"Validation.h"
+
+1665216666 c:\users\logo cs\desktop\bank system 2\validation.h
+	<iostream>
+	<string>
+
+1665216826 source:c:\users\logo cs\desktop\bank system 2\validation.cpp
+	"Validation.h"
+
+1665217293 source:c:\users\logo cs\desktop\bank system 2\client.cpp
+	"Client.h"
+
+1665223891 c:\users\logo cs\desktop\bank system 2\client.h
+	"Person.h"
+	"Validation.h"
+	<vector>
+	<iterator>
+
+1665217531 source:c:\users\logo cs\desktop\bank system 2\employee.cpp
+	"Employee.h"
+
+1665224321 c:\users\logo cs\desktop\bank system 2\employee.h
+	"Client.h"
+	<vector>
+
+1665218010 source:c:\users\logo cs\desktop\bank system 2\admin.cpp
+	"Admin.h"
+
+1665237886 c:\users\logo cs\desktop\bank system 2\admin.h
+	"Employee.h"
+	"Client.h"
+	"Person.h"
+	<vector>
+
+1665218246 source:c:\users\logo cs\desktop\bank system 2\datasourceinterface.cpp
+	"DataSourceInterface.h"
+
+1665218273 c:\users\logo cs\desktop\bank system 2\datasourceinterface.h
+	"Admin.h"
+
+1665218380 source:c:\users\logo cs\desktop\bank system 2\parser.cpp
+	"Parser.h"
+
+1665218388 c:\users\logo cs\desktop\bank system 2\parser.h
+	<sstream>
+	"Admin.h"
+
+1665218814 source:c:\users\logo cs\desktop\bank system 2\fileshelper.cpp
+	"FilesHelper.h"
+
+1665356789 c:\users\logo cs\desktop\bank system 2\fileshelper.h
+	<fstream>
+	"Parser.h"
+
+1665218975 source:c:\users\logo cs\desktop\bank system 2\filemanager.cpp
+	"FileManager.h"
+
+1665350173 c:\users\logo cs\desktop\bank system 2\filemanager.h
+	"DataSourceInterface.h"
+	"FilesHelper.h"
+	"Client.h"
+	"Employee.h"
+	"Admin.h"
+
+1665219170 source:c:\users\logo cs\desktop\bank system 2\clientmanger.cpp
+	"ClientManger.h"
+
+1665353480 c:\users\logo cs\desktop\bank system 2\clientmanger.h
+	"FilesHelper.h"
+	"Validation.h"
+
+1665219304 source:c:\users\logo cs\desktop\bank system 2\employeemanager.cpp
+	"EmployeeManager.h"
+
+1665435023 c:\users\logo cs\desktop\bank system 2\employeemanager.h
+	"ClientManger.h"
+	"FileManager.h"
+
+1665219872 source:c:\users\logo cs\desktop\bank system 2\adminmanager.cpp
+	"AdminManager.h"
+
+1665219924 c:\users\logo cs\desktop\bank system 2\adminmanager.h
+	"EmployeeManager.h"
+
+1665221226 source:c:\users\logo cs\desktop\bank system 2\screens.cpp
+	"Screens.h"
+
+1665434925 c:\users\logo cs\desktop\bank system 2\screens.h
+	<iostream>
+	<windows.h>
+	"AdminManager.h"
+	"FileManager.h"
+
